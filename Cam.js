@@ -102,7 +102,6 @@ const Cam = () => {
         }
       });
     }
-    return () => clearTimeout(capturePhoto);
   }, [process, refresh]);
 
   return (
